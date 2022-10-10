@@ -28,7 +28,7 @@ function home(){
                         <a class="nav-link" href="/about"> บริการของเรา</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="service.html"> ประเภทรถบริการ </a>
+                        <a class="nav-link" href="/services"> ประเภทรถบริการ </a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="news.html"> อัตตราค่าบริการ</a>
