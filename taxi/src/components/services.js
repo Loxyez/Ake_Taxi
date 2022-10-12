@@ -45,7 +45,7 @@ class services extends Component{
                                     <a class="nav-link" href="/services"> ประเภทรถบริการ </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="news.html"> อัตตราค่าบริการ</a>
+                                    <a class="nav-link" href="/price"> อัตตราค่าบริการ</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">ติดต่อสอบถาม</a>
