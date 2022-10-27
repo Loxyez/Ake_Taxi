@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "./nav";
 
 function home(){
 
@@ -6,42 +7,7 @@ function home(){
         <>
         <div class="hero_area">
             {/* <!-- header section strats --> */}
-            <header class="header_section">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg custom_nav-container ">
-                <a class="navbar-brand" href="index.html">
-                    <span>
-                    Ake Taxi
-                    </span>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-                    <ul class="navbar-nav  ">
-                        <li class="nav-item active">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="/about"> บริการของเรา</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="/services"> ประเภทรถบริการ </a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="/price"> อัตตราค่าบริการ</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="contact.html">ติดต่อสอบถาม</a>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-                </nav>
-            </div>
-            </header>
+            <Nav/>
             {/* <!-- end header section --> */}
             {/* <!-- slider section --> */}
             <section class=" slider_section ">
@@ -68,27 +34,32 @@ function home(){
                         <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="img-box">
-                            <img src="assets/images/slider-img.jpg" alt=""></img>
+                            <img src="assets/images/feed_back/23857.jpg" alt=""></img>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="img-box">
-                            <img src="assets/images/slider-img.png" alt=""></img>
+                            <img src="assets/images/feed_back/24791.jpg" alt=""></img>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="img-box">
-                            <img src="assets/images/slider-img.png" alt=""></img>
+                            <img src="assets/images/feed_back/24794.jpg" alt=""></img>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="img-box">
-                            <img src="assets/images/slider-img.png" alt=""></img>
+                            <img src="assets/images/feed_back/24795.jpg" alt=""></img>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="img-box">
-                            <img src="assets/images/slider-img.png" alt=""></img>
+                            <img src="assets/images/feed_back/24796.jpg" alt=""></img>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-box">
+                            <img src="assets/images/feed_back/24797.jpg" alt=""></img>
                             </div>
                         </div>
                         </div>
@@ -134,7 +105,7 @@ function home(){
                 </div>
                 <div class="col-md-6">
                 <div class="img-box">
-                    <img src="assets/images/about-img.png" alt=""></img>
+                    <img src="assets/images/feed_back/23305.jpg" alt=""></img>
                 </div>
                 </div>
             </div>

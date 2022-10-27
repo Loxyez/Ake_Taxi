@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Nav from "./nav";
 import "../App.css";
 
 class services extends Component{
@@ -19,43 +20,7 @@ class services extends Component{
             <>
                 <div class="hero_area">
                     {/* <!-- header section strats --> */}
-                    <header class="header_section">
-                        <div class="container-fluid">
-                            <nav class="navbar navbar-expand-lg custom_nav-container ">
-                            <a class="navbar-brand" href="index.html">
-                                <span>
-                                Urotaxi
-                                </span>
-                            </a>
-                            <a></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-                                <ul class="navbar-nav  ">
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="/about"> บริการของเรา</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/services"> ประเภทรถบริการ </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/price"> อัตตราค่าบริการ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">ติดต่อสอบถาม</a>
-                                </li>
-                                </ul>
-                                </div>
-                            </div>
-                            </nav>
-                        </div>
-                    </header>
+                    <Nav/>
                 </div>
 
                 <section class="service_section layout_padding">
@@ -128,7 +93,7 @@ class services extends Component{
                                     </h6>
                                 </div>
                                 <div class = "img-box">
-                                    <img src="assets/images/news-img.jpg" alt=""></img>
+                                    <img src="assets/images/car_type/fortuner.jpg" alt=""></img>
                                 </div>
                                 <div class="detail-box">
                                     <h6>
@@ -146,7 +111,7 @@ class services extends Component{
                                     </h6>
                                 </div>
                                 <div class = "img-box">
-                                    <img src="assets/images/news-img.jpg" alt=""></img>
+                                    <img src="assets/images/car_type/camry.jpg" alt=""></img>
                                 </div>
                                 <div class="detail-box">
                                     <h6>
@@ -164,7 +129,7 @@ class services extends Component{
                                     </h6>
                                 </div>
                                 <div class = "img-box">
-                                    <img src="assets/images/news-img.jpg" alt=""></img>
+                                    <img src="assets/images/car_type/mux.jpg" alt=""></img>
                                 </div>
                                 <div class="detail-box">
                                     <h6>
@@ -175,14 +140,18 @@ class services extends Component{
                                     </p>
                                 </div>
                             </div>
-                            <div class="box">
+                            <br></br>
+                        </div>
+                        <br></br>
+                        <div class="news_container">
+                        <div class="box">
                                 <div class="date-box">
                                     <h6>
                                         Mitsubishi Pajero
                                     </h6>
                                 </div>
                                 <div class = "img-box">
-                                    <img src="assets/images/news-img.jpg" alt=""></img>
+                                    <img src="assets/images/car_type/pajero.jpg" alt=""></img>
                                 </div>
                                 <div class="detail-box">
                                     <h6>
@@ -200,7 +169,7 @@ class services extends Component{
                                     </h6>
                                 </div>
                                 <div class = "img-box">
-                                    <img src="assets/images/news-img.jpg" alt=""></img>
+                                    <img src="assets/images/car_type/alphard.jpg" alt=""></img>
                                 </div>
                                 <div class="detail-box">
                                     <h6>
