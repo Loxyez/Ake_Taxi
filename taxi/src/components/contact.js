@@ -20,7 +20,7 @@ class contact extends Component {
             <>
                 <div class="hero_area">
                     {/* <!-- header section strats --> */}
-                    <Nav/>
+                    {/* <Nav/> */}
                 </div>
 
                 {/* Contact Section */}

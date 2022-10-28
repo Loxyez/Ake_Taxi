@@ -9,7 +9,7 @@ function nav(){
                     <nav class="navbar navbar-expand-lg custom_nav-container ">
                     <a class="navbar-brand" href="/">
                         <span>
-                        Urotaxi
+                        Ake Taxi
                         </span>
                     </a>
                     <a></a>

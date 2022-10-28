@@ -10,6 +10,7 @@ import Contact from "./components/contact";
 function App() {
   return (
     <BrowserRouter>
+    <Nav/>
       <Routes>
         <Route path = "/"           element = {<Home />}></Route>
         <Route path = "/about"      element = {<About />}></Route>

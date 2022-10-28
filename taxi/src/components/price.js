@@ -20,7 +20,7 @@ class price extends Component {
             <>
                 <div class="hero_area">
                     {/* <!-- header section strats --> */}
-                    <Nav/>
+                    {/* <Nav/> */}
                     {/* <!-- end header section --> */}
                 </div>
 
